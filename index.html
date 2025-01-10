@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="container__main">
+
+      <h1 class="container__main__text__title">Stay updated!</h1>
+      <p class="container__main__text__subtitle">Join 60,000+ product managers receiving monthly updates on:</p>
+      <ul class="container__main__text__ul">
+        <li>Product discovery and building what matters</li>
+        <li>Measuring to ensure updates are a success</li>
+        <li>And much more!</li>
+      </ul>
+      
+      <form class="container__main__form" action="completed.html">
+
+        <div class="container__main__form__toolbar">
+          <label for="email">Email address</label>
+          <p id="error">Valid email required</p>
+        </div>
+
+        <input type="email" name="email" id="emailInput" placeholder="email@company.com" required>
+        <input type="submit" value="Subscribe to monthly newsletter">
+      </form>
+
+    </div> <!-- .container__main end -->
+
+    <div class="container__img">
+      <img src="./assets/images/illustration-sign-up-desktop.svg" alt="stay updated">
+    </div>
+
+  </div> <!-- .container end -->
+
+  <script src="./index.js" type="module"></script>
+
+</body>
+
+</html>
